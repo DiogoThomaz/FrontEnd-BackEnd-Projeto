@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+div.barra {
+    background-image: linear-gradient(#304bff, #3b5ecf, #4772f4);
+    padding: 15px;
+}
+div.barra:hover {
+    background-color: #4772f4;
+}
+
+#titulo {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding-top: 5vmax;
+}
+
+div.barrafooter {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    background-image: linear-gradient(#4772f4, #3b5ecf, #304bff );
+    padding: 15px;
+}
+div.barrafooter:hover {
+    background-color: #4772f4;
+}
+
+#footer {
+    font-size: large;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: auto;
+}
+
+body {
+    font-size: 1em;
+    background-color: white;
+    display:contents;
+}
+
+button, select {
+    background-color: #4772f4;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    border-width: none;
+    border-color: #4772f4;
+    padding: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+
+button:active {
+    background-color: #3b5ecf;
+}
+
+select {
+    background-color: #4772f4;
+    color: white;
+    border-radius: 10px;
+    border-color: #4772f4;
+    padding: 3px;
+    display: block;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+label {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: block;
+    text-align: center;
+}
+
+
+
+form {
+    padding: 3%;
+    background-image: linear-gradient(#304bff, #3b5ecf, #4772f4);
+    border-radius: 5px;
+    border-color: #304bff;
+    box-shadow: 3px 3px 9px 0px rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    color: white;
+}
+
+.metamask > div > img {
+    padding-top: 2%;
+    display: block;
+    margin: auto;
+}
+
+
+.minter > h3 {
+    text-align: center;
+    padding: 3%;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    padding-top: 5%;
+}
